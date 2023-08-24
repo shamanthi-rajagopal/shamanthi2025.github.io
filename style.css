@@ -1,0 +1,381 @@
+/*CSS created by Shamanthi*/
+
+html {
+    background-color: #c5cab0;
+    position: relative; 
+    top: 0; 
+    left: 0; 
+    max-width: 150px; 
+    max-height: 196px;
+    overflow-y: hidden;
+}
+
+.example::-webkit-scrollbar {
+  display: none;
+}
+
+/*Timer Container*/
+#container {
+    position: relative;
+    bottom: 1050px;
+    left: 150px;
+    height: 80px;
+    width: 365px;
+    margin: 0 auto;
+    border: 2.5px solid #000000;
+    float: lefts
+}
+
+/*label*/
+.label {
+    margin: 0;
+
+    justify-self: center;
+    align-self: center;
+    font-size: 30px;
+}
+
+/*times*/
+.time {
+    justify-self: center;
+    align-self: center;
+    font-family: "Garamond";
+    border: none;
+    background-color: #ffffff00;
+    font-size: 50px;
+    width: 70px;
+    height: 50px;
+}
+
+
+.semicolon {
+    justify-self: center;
+    align-self: center;
+    position: relative;
+    top: -43px;
+    left: 100px;
+    font-size: 40px;
+    margin: 0;
+}
+
+#Head {
+position: center;
+right: 100px;
+}
+
+#minute {
+    font-size: 30px;
+    position: relative;
+    left: 28px;
+    bottom: -10px;
+}
+
+#sec {
+    font-size: 30px;   
+    position: relative;
+    bottom: 86px;
+    left: 140px;
+    
+
+}
+
+/*Buttons for Timer*/
+
+.btn {
+    align-self: center;
+    
+    width: 100px;
+    height: 40px;
+
+    font-size: 30px;
+    justify-self: center;
+}
+
+#start {
+    height: 35px;
+    width: 55px;
+    font-size: 18px;
+    color:black;
+    font-family:Garamond;
+    border: none;
+    position: relative;
+    bottom: 88px;
+    left: 140px;
+    background: #d9dfc2;
+    border: 0px solid #000000;
+    border-radius: 6px;
+}
+
+#reset {
+    height: 35px;
+    width: 55px;
+    font-size: 18px;
+    color:black;
+    font-family:Garamond;
+    border: none;
+    position: relative;
+    bottom: 88px;
+    left: 150px;
+    background: #d9dfc2;
+    border: 0px solid #000000;
+    border-radius: 6px;
+}
+
+#reset:hover{
+  color:white;
+  transition: 0.1s;
+}
+
+#start:hover{
+  color:white;
+  transition: 0.1s;
+}
+
+
+
+:root {
+    background-color:#c5cab0;
+    --font-family: "Garamond", sans-serf;
+    --normal-font: 00;
+    --bold-font: 700;
+    --bolder-font: 900;
+    --bg-color: #fff;
+    --primary-color: #2c5aa0;
+    --secondary-color: #ff7235;
+    --primary-shadow: #8b8eaf;
+    --secondary-shadow: #a17a69;
+    --bottom-margin: 0.5rem;
+    --bottom-margin-2: 1rem;
+    --line-height: 1.7rem;
+    --transition: 0.3s;
+  }
+
+
+h2{
+  position:relative;
+  left: 55px;
+  top: 30px;
+  font-size: 60px;
+  font-family: 'Signika Negative', sans-serif;
+  font-style: normal;
+  width:500px;
+
+}
+
+p{
+   position: relative;
+   top: 35px; 
+   left: 90px; 
+   font-size: 10px;
+   width:200px;
+}
+
+  
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+  
+  ul {list-style-type: none;}
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:hover {color: white;}
+  
+  body {
+    font-family: var(--font-family);
+  }
+
+  nav {
+    position: relative;
+    font-size: 20px;
+    bottom: 50px;
+    left: 1300px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3.5rem;
+    background-color: null;
+  }
+
+  /*Menu Option 1 => About*/
+  .box {
+    background-color: null;
+    width: 200px; 
+    font-size: 20px;
+    position: relative; 
+    left: 1234px; 
+    bottom: 1337px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    float: right;
+  }
+  p {
+      font-size: 17px; 
+      align-items: center;
+  }
+  .box a {
+      display: inline-block; 
+      position: relative; 
+      left: 100px; 
+      padding: 15px; 
+      border-radius: 3px;
+  }
+  .modal {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 1580px; 
+    height: 800px;
+    top: 0;
+    bottom: 0;
+    left: -10px;
+    right: 0;
+    transition: all 0.2s;
+    visibility: hidden;
+    background-color: #0000005d;
+    opacity: 0.5;
+  }
+  .content {
+      position: relative; 
+      right: 0px;
+      top: 0px;
+      background: white; 
+      width: 500px; 
+      height: 500px; 
+      padding: 1em 2em; 
+      border-radius: 4px;
+  }
+  .modal:target {
+      visibility: visible; 
+      opacity: 1;
+  }
+  .box-close {
+      position: absolute;
+      top: 0;
+      right: 15px;
+      color: #000000;
+      text-decoration: none;
+      font-size: 30px;
+  }
+
+  .box-close:hover{color:#d9dfc2;}
+
+  #About{font-size:20px;}
+
+  h1{
+    font-size:35px;
+    font-style: "bold";
+  }
+
+/*Menu Option 2 => Study Tips*/
+  .box1 {
+    background-color: null; 
+    font-size: 20px;
+    position: relative; 
+    left: 1300px; 
+    bottom: 1360px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    width: 200px;
+}
+p {
+    font-size: 17px;
+    align-items: center;
+}
+.box1 a {
+    display: inline-block;
+    background-color: null;
+    padding: 15px;
+    border-radius: 3px;
+}
+.modal1 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 1580px; 
+    height: 800px;
+    top: 0;
+    bottom: 0;
+    left: -10px;
+    right: 0;
+    transition: all 0.2s;
+    visibility: hidden;
+    background-color: #0000005d;
+    opacity: 0.5;
+}
+.content1 {
+  position: relative;  
+  width: 500px; 
+  height: 500px;
+  left: 0;
+  top: 0;
+  background: white; 
+  padding: 1em 2em; 
+  border-radius: 4px;
+}
+.modal1:target {
+    visibility: visible;
+    opacity: 1;
+}
+.box-close1 {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.box-close1:hover{color:#d9dfc2;}
+
+/*Audio Panels*/
+audio::-webkit-media-controls-panel{
+  background: #d9dfc2;
+  font-size: 20px;
+}
+
+audio::-webkit-media-controls-current-time-display{color: #d9dfc2;}
+
+audio{
+  width:150px; 
+  height: 30px;
+  position: relative; 
+  top: -250px; 
+  left: 250px; 
+}
+
+audio::-webkit-media-controls-current-time-display{display:none;}
+audio::-webkit-media-controls-time-remaining-display{display:none;}
+audio::-webkit-media-controls-timeline{display: none;}
+audio::-webkit-media-controls-enclosure{border-radius:0;}
+
+#audiocontainer{
+  position: relative;
+  bottom: 520px;
+  left: 90px;
+  height: 400px;
+  width: 450px;
+  margin: 0 auto;
+  border: 0px solid #000000;
+}
+
+/*Image*/
+img{
+  width:720px;
+  height:720px;
+  position: relative;
+  left: 600px;
+  bottom: 70px;
+}
